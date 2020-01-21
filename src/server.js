@@ -1,22 +1,15 @@
-
 const knex = require('knex')
 const app = require('./app')
-const { PORT } = require('./config')
+const { PORT, DB_URL } = require('./config')
 
 
 
-const knexInstance = knex({
+const db = knex({
     client: 'pg',
-    connection: process.env.DB_URL
+    connection: DB_URL
   })
-  
-  knexInstance.from('claire_products').select('*')
-    .then(result =>{
-        console.log(result)
-    })
 
-
-  
+app.set('db', db)
 
 
 app.listen (PORT,() =>{

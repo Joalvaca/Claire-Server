@@ -1,7 +1,7 @@
 BEGIN;
 
 INSERT INTO claire_products
-    (product_name, image, product_descripton, price)
+    (product_name, image, product_description, price)
 VALUES
 ('Platinum','image','12 gallons a minute','400$'),
 ('Sliver','image','3 gallons a minute','50$'),
