@@ -14,5 +14,4 @@ productsRouter
       .catch(next)
       })
 
-
 module.exports = productsRouter

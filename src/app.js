@@ -4,7 +4,7 @@ const morgan = require('morgan')
 const cors = require('cors')
 const helmet = require('helmet')
 const { NODE_ENV } = require('./config')
-const productRouter =('./products/products-router')
+const productsRouter = require('./products/products-router')
 
 const app = express()
 
@@ -16,7 +16,7 @@ app.use(morgan(morganOption))
 app.use(helmet())
 app.use(cors())
 
-app.use('/api/products', productRouter)
+app.use('/api/products', productsRouter)
   
 app.get('/', (req, res) => {
     res.send('Hello, world!')
@@ -35,6 +35,7 @@ app.use(function errorHandler(error, req, res, next) {
     
 
 
+     
 
 module.exports = app
 
