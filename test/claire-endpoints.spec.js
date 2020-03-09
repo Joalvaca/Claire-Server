@@ -4,7 +4,6 @@ const app = require("../src/app");
 const { makeClaireproductsArray } = require("./claireproducts.fixtures");
 const helpers = require("./test-helpers");
 
-
 describe("products Endpoints", function() {
   let db;
 
@@ -21,13 +20,12 @@ describe("products Endpoints", function() {
   before("clean the table", () => helpers.cleanTables(db));
 
   afterEach("cleanup", () => helpers.cleanTables(db));
- 
 
   describe(`GET /api/products`, () => {
     context(`Given no products`, () => {
       it(`responds with 200 and and empty list`, () => {
         return supertest(app)
-          .get("/api/footprints")
+          .get("/api/products")
           .expect(200, []);
       });
     });
@@ -45,3 +43,4 @@ describe("products Endpoints", function() {
       });
     });
   });
+});

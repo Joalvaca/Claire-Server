@@ -1,7 +1,7 @@
 function makeClaireproductsArray() {
   return [
     {
-      product_id: 1,
+      id: 1,
       product_name: " first test",
       max_water_flow: "1 GPM",
       quantity_of_qd: "1 gram",
@@ -12,7 +12,7 @@ function makeClaireproductsArray() {
       inlet_outlet: "inch"
     },
     {
-      product_id: 2,
+      id: 2,
       product_name: "second test",
       max_water_flow: "2 GPM",
       quantity_of_qd: "2 gram",
@@ -23,7 +23,7 @@ function makeClaireproductsArray() {
       inlet_outlet: "2 inch"
     },
     {
-      product_id: 3,
+      id: 3,
       product_name: "third test",
       max_water_flow: "3 GPM",
       quantity_of_qd: "3 gram",
