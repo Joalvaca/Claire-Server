@@ -1,8 +1,7 @@
 const ProductsService = {
-    getAllProducts(knex){
-        return knex.select('*').from('claire_products')
-    },
-}
+  getAllProducts(knex) {
+    return knex.select("*").from("claire_products");
+  }
+};
 
-module.exports = ProductsService
- 
+module.exports = ProductsService;
