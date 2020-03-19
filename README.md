@@ -26,8 +26,35 @@ Gets product specification
 /api/products
 ```
 
-\*Method
+- Method
 
 ```
 GET
 ```
+
+- Body Params
+  none
+
+- Success Response
+  Code: 200\
+   content:
+
+  ```
+  {
+
+        "id": 1,
+        "product_name": "Platinum",
+        "max_water_flow": "12 GPM",
+        "quantity_of_qd": "600 grams",
+        "prefiltration": "< 5 micron",
+        "unit_dimensions": "11 x 3 inches",
+        "expected_life": "200k gallons/ 740k liters",
+        "operating_temperature": "41-100",
+        "inlet_outlet": "1 inch"
+  },....
+  ```
+
+* Error Response
+  Code: 400
+
+  ---
