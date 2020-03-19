@@ -32,10 +32,10 @@ Gets product specification
 GET
 ```
 
-- Body Params
+- Body Params\
   none
 
-- Success Response
+- Success Response\
   Code: 200\
    content:
 
