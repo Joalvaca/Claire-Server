@@ -20,7 +20,7 @@ Claire Technologies was built using Node, Express and knex. PostgreSQL was used 
 
 # Using this API
 
-## Gets Products
+## GET Products
 
 Gets product specification
 
