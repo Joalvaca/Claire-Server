@@ -14,6 +14,8 @@ Claire Technologies was built using Node, Express and knex. PostgreSQL was used 
 
 <div>https://claire-app.joalvaca.now.sh/</div>
 
+## Claire App
+
 <div><img src="src/images/ClaireForm.jpg" alt="form"><div>
 
 # Using this API
