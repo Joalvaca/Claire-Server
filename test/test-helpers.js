@@ -1,7 +1,8 @@
 function cleanTables(db) {
   return db.raw(
     `TRUNCATE
-    claire_products
+    claire_products,
+    distributor_list
             CASCADE
         `
   );
