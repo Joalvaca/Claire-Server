@@ -6,17 +6,17 @@ Polar Footprints API controls the interactions between the front end and databas
 
 Claire Technologies was built using Node, Express and knex. PostgreSQL was used to built the database.
 
-## Client Repo
+## Live Site
 
-<div>https://github.com/Joalvaca/Claire-Site.git</div>
+[API Repo here](https://github.com/Joalvaca/Claire-Site.git)
 
 ## Live Site
 
-<div>https://claire-app.joalvaca.now.sh/</div>
+[Live Site here](https://claire-app.joalvaca.now.sh/)
 
 ## Claire App
 
-<div><img src="src/images/ClaireForm.jpg" alt="form"><div>
+![Claire Form](https://github.com/Joalvaca/Claire-server/raw/master/src/images/ClaireForm.jpg)
 
 # Using this API
 
@@ -30,5 +30,6 @@ Gets product specification
 
 ```
 GET - /api/products - returns all products
+GET - /api/distributors - returns all distributors
 
 ```
